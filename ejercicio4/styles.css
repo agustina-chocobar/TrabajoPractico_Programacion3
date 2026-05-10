@@ -1,0 +1,35 @@
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Arial;
+}
+
+.card-custom{
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #00aaff;
+    transition: 0.5s;
+}
+
+.card-custom:hover{
+    box-shadow: 0px 0px 20px #00aaff;
+}
+
+.titulo{
+    color: #66ccff;
+    margin-bottom: 20px;
+}
+
+.img-custom{
+    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.resultado{
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-radius: 10px;
+}
+

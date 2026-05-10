@@ -1,0 +1,49 @@
+/* Fondo */
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tarjeta */
+.card-custom{
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #00aaff;
+
+    /* transición */
+    transition: 0.5s;
+}
+
+/* Efecto hover */
+.card-custom:hover{
+    box-shadow: 0px 0px 20px #00aaff;
+    transform: scale(1.01);
+}
+
+/* Título */
+.titulo{
+    color: #66ccff;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px #00aaff;
+}
+
+/* Imagen */
+.img-custom{
+    width: 200px;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+.form-control{
+    background-color: #2b2b2b;
+    color: white;
+    border: 1px solid #00aaff;
+}
+
+/* Tabla */
+table{
+    margin-top: 20px;
+}
+

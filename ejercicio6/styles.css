@@ -1,0 +1,22 @@
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Arial;
+}
+
+.card-custom{
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #ff9900;
+    transition: 0.5s;
+}
+
+.card-custom:hover{
+    box-shadow: 0px 0px 20px #ff9900;
+}
+
+.titulo{
+    color: #ffcc66;
+}
+

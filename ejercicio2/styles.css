@@ -1,0 +1,47 @@
+/* Fondo general */
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Tarjeta principal */
+.card-custom{
+    background-color: #1f1f1f;
+    padding: 30px;
+    border-radius: 15px;
+    border: 2px solid #4da6ff;
+    box-shadow: 0px 0px 15px rgba(77,166,255,0.5);
+
+    /* Transición */
+    transition: 0.5s;
+}
+
+/* Efecto al pasar el mouse */
+.card-custom:hover{
+    transform: scale(1.01);
+    border-color: #80c1ff;
+}
+
+/* Título */
+.titulo{
+    color: #80c1ff;
+    margin-bottom: 20px;
+    text-shadow: 0px 0px 10px #4da6ff;
+}
+
+/* Imagen */
+.img-auto{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #4da6ff;
+}
+
+/* Resultado */
+.resultado{
+    background-color: #2b2b2b;
+    padding: 15px;
+    border-radius: 10px;
+    border-left: 5px solid #4da6ff;
+}
