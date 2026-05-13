@@ -1,0 +1,56 @@
+/* Fondo general */
+body{
+    background-color: #121212;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.perfil{
+    text-align: center;
+}
+
+/* Imagen circular */
+.perfil img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+
+    border-radius: 50%; /* círculo */
+    border: 3px solid #00aaff;
+
+    transition: 0.4s;
+}
+
+/* efecto */
+.perfil img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 20px #00aaff;
+}
+
+/* nombre */
+.titulo{
+    color: #66ccff;
+    margin-top: 10px;
+    text-shadow: 0px 0px 10px #00aaff;
+}
+
+/* Cards */
+.card{
+    background-color: #1f1f1f;
+    border: 2px solid #00aaff;
+    transition: 0.4s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px #00aaff;
+}
+
+/* Botones */
+.btn{
+    transition: 0.3s;
+}
+
+.btn:hover{
+    transform: scale(1.05);
+}
