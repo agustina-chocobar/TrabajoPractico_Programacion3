@@ -54,3 +54,9 @@ body{
 .btn:hover{
     transform: scale(1.05);
 }
+.card h5 {
+  color: #00aaff; /* azul brillante */
+  text-shadow: 0 0 10px #00aaff; /* efecto neón */
+  font-weight: bold;
+  margin-bottom: 10px;
+}
